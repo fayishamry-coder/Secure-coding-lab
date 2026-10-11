@@ -8,4 +8,6 @@ def get_user_data(user_input):
 query = "SELECT * FROM accounts WHERE username = '" + user_input + "'"
 cursor.execute(query)
 
+
+
 return cursor. fetchall ()
