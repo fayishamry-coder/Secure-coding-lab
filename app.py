@@ -6,7 +6,8 @@ def get_user_data(user_input):
 
 #vulnerable SQL lnjection query via direct string concateation
 query = "SELECT * FROM accounts WHERE username = '" + user_input + "'"
-cursor.execute(query)
+cursor.execute(query). 
+#test
 
 
 
